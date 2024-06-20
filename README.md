@@ -11,19 +11,19 @@ The dataset we use consists of 6 types of data:
 
 The features of the dataset are as follows:
 
-1. *Tourify_Article.csv*
+1. Tourify_Article.csv
    - article_id: Contains the unique ID of the article.
    - article_url: Contains the link to the article.
 
-2. *Tourify_Category.csv*
+2. Tourify_Category.csv
    - category_id: Contains the unique ID of the category.
    - category_name: Contains the name of the category, consisting of _Taman Nasional, Desa Wisata, Cagar Alam, Budaya, Bahari,_ and _Kuliner_.
      
-3. *Tourify_Image.csv*
+3. Tourify_Image.csv
    - image_id: Contains the unique ID of the image.
    - url_image: Contains the link to the additional image.
 
-4. *Tourify_Place.csv*
+4. Tourify_Place.csv
    - tourism_id: Contains the unique ID of the tourist attraction and culinary spot.
    - tourism_name: Contains the name of the tourist attraction and culinary spot.
    - tourism_description: Contains the description of each tourist attraction and culinary spot.
@@ -37,12 +37,12 @@ The features of the dataset are as follows:
    - latitude: Contains the latitude of each tourist attraction and culinary spot.
    - longitude: Contains the longitude of each tourist attraction and culinary spot.
 
-5. *dummy_user.csv*
+5. dummy_user.csv
    - user_id: Contains the unique ID of the user.
    - location: Contains the hometown of the user.
    - age: Contains the age of the user.
 
-6. *rating.csv*
+6. rating.csv
    - user_id: Contains the ID of the user (from dummy_user.csv).
    - tourism_id: Contains the ID of the tourist attraction and culinary spot rated by the user.
    - user_rating: Contains the rating given by the user to the tourism_id.
