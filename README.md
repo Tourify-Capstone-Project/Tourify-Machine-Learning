@@ -59,6 +59,8 @@ The following are some of the steps taken to prepare the data:
     - Mapping encoded place and user labels to rating data
         After the identifier is created, the results are entered into the tourism_rating.csv (rating) data in preparation for entering the modeling stage.
 
+## Modeling and Result
+
 ## Evaluation
 To measure the performance of our model for recommendation systems, the RMSE metric is used, which predicts normalized Place_Ratings based on encoded user_id and tourism_id.
 
