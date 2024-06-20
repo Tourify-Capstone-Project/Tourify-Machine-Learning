@@ -48,6 +48,16 @@ The features of the dataset are as follows:
    - tourism_id: Contains the ID of the tourist attraction and culinary spot rated by the user.
    - user_rating: Contains the rating given by the user to the tourism_id.
   
+## Data Preparation
+The following are some of the steps taken to prepare the data:
+1. Data Preprocessing
+    - Cleaning up duplication data.
+        This is done because it can cause the same data to appear 2 or more times in the recommendation system that will be made. Therefore, this duplication data needs to be removed because the data actually already exists in the dataset.
+2. Data Preparation
+    - Encoding place and user labels 
+        This is done to encode identifiers for places and users.
+    - Mapping encoded place and user labels to rating data
+        After the identifier is created, the results are entered into the tourism_rating.csv (rating) data in preparation for entering the modeling stage.
 
 ## Evaluation
 To measure the performance of our model for recommendation systems, the RMSE metric is used, which predicts normalized Place_Ratings based on encoded user_id and tourism_id.
