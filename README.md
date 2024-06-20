@@ -76,3 +76,6 @@ RMSE is calculated by squaring the error (predicted - observed) divided by the a
 The advantage of RMSE is that it has a fairly high level of sensitivity, and RMSE also avoids the use of taking absolute values, which is undesirable in many mathematical calculations.
 
 The RMSE in this collaborative filtering model is around 0.3, of course this is considered sufficient to be able to display the most appropriate recommendation results.
+
+## Conclusion
+The model for recommending various tourist destinations has been completed. This model can be used to provide recommendations to users, aiming for them to explore Indonesia's tourism attractions comprehensively, especially lesser-known destinations. The hope is that increased tourism will boost Indonesia's economy. However, there are still further developments that can be implemented to enhance the model, ensuring it provides recommendations that better align with user preferences and other factors.
