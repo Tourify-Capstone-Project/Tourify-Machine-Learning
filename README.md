@@ -60,6 +60,11 @@ The following are some of the steps taken to prepare the data:
         After the identifier is created, the results are entered into the tourism_rating.csv (rating) data in preparation for entering the modeling stage.
 
 ## Modeling and Result
+After preprocessing the data, the next step is to create a collaborative filtering recommendation system.
+1. Splitting the dataset into train and validation sets by dividing the rating data (rating.csv) into 80% for training and      20% for validation.
+2. Building a Neural Network model using embeddings for user and place data, followed by dense layers to process these          embeddings.
+3. Training the Neural Network model with the previously split training data. The model is compiled with Binary Crossentropy    to compute the loss function, Adagrad as the optimizer, and Root Mean Squared Error (RMSE) as the evaluation metric.
+4. Saving the model in tflite format.
 
 ## Evaluation
 To measure the performance of our model for recommendation systems, the RMSE metric is used, which predicts normalized Place_Ratings based on encoded user_id and tourism_id.
