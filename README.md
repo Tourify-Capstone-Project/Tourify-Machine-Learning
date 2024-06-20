@@ -15,6 +15,10 @@ The features of the dataset are as follows:
 1. Tourify_Article.csv
    - article_id: Contains the unique ID of the article.
    - article_url: Contains the link to the article.
+   - city: Contains the city of the tourist attraction or culinary spot mentioned in the article.
+   - article_title: Contains the title of the article.
+   - article_description: Contains a brief description of the article.
+   - article_image: Contains the image for the article.
 
 2. Tourify_Category.csv
    - category_id: Contains the unique ID of the category.
@@ -23,6 +27,7 @@ The features of the dataset are as follows:
 3. Tourify_Image.csv
    - image_id: Contains the unique ID of the image.
    - url_image: Contains the link to the additional image.
+   - tourism_id : Contains the unique ID of the tourist attraction and culinary spot corresponding to image_id.
 
 4. Tourify_Place.csv
    - tourism_id: Contains the unique ID of the tourist attraction and culinary spot.
@@ -34,6 +39,7 @@ The features of the dataset are as follows:
    - rating: Contains the average rating of each tourist attraction and culinary spot.
    - tourism_location: Contains the address of each tourist attraction and culinary spot.
    - tourism_image: Contains the main image of each tourist attraction and culinary spot.
+   - tourism_gmaps: Contains gmaps links of each tourist and culinary spot.
    - latlong: Contains the latitude and longitude of each tourist attraction and culinary spot.
    - latitude: Contains the latitude of each tourist attraction and culinary spot.
    - longitude: Contains the longitude of each tourist attraction and culinary spot.
