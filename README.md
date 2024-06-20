@@ -1,5 +1,6 @@
 # Tourify Machine Learning Path
 
+## Data Information
 The dataset we use consists of 6 types of data:
 
 1. Tourify_Article.csv - Contains articles about tourist attractions and culinary spots.
