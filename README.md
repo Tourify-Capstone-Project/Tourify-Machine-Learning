@@ -47,3 +47,15 @@ The features of the dataset are as follows:
    - user_id: Contains the ID of the user (from dummy_user.csv).
    - tourism_id: Contains the ID of the tourist attraction and culinary spot rated by the user.
    - user_rating: Contains the rating given by the user to the tourism_id.
+  
+
+## Evaluation
+To measure the performance of our model for recommendation systems, the RMSE metric is used, which predicts normalized Place_Ratings based on encoded user_id and tourism_id.
+
+RMSE is calculated by squaring the error (predicted - observed) divided by the amount of data (= average), and then rooted. Mathematically, the formula is written as follows
+
+![image](https://github.com/Tourify-Capstone-Project/Tourify-Machine-Learning/assets/170117238/45d1c530-8e3b-4a0c-a5b0-c597ce97aaf7)
+
+The advantage of RMSE is that it has a fairly high level of sensitivity, and RMSE also avoids the use of taking absolute values, which is undesirable in many mathematical calculations.
+
+The RMSE in this collaborative filtering model is around 0.3, of course this is considered sufficient to be able to display the most appropriate recommendation results.
