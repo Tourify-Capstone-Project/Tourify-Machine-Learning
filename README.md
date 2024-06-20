@@ -2,12 +2,12 @@
 
 The dataset we use consists of 6 types of data:
 
-1. *Tourify_Article.csv* - Contains articles about tourist attractions and culinary spots.
-2. *Tourify_Category.csv* - Contains 6 categories that will be used.
-3. *Tourify_Image.csv* - Contains additional photos for each tourist attraction and culinary spot.
-4. *Tourify_Place.csv* - Contains information about tourist attractions and culinary spots in various cities in Indonesia.
-5. *dummy_user.csv* - Contains information about user id, location, and age of user.
-6. *rating.csv* - Contains user information, tourist attractions, culinary spots, and ratings to create a recommendation system based on ratings.
+1. Tourify_Article.csv - Contains articles about tourist attractions and culinary spots.
+2. Tourify_Category.csv - Contains 6 categories that will be used.
+3. Tourify_Image.csv - Contains additional photos for each tourist attraction and culinary spot.
+4. Tourify_Place.csv - Contains information about tourist attractions and culinary spots in various cities in Indonesia.
+5. dummy_user.csv - Contains information about user id, location, and age of user.
+6. rating.csv - Contains user information, tourist attractions, culinary spots, and ratings to create a recommendation system based on ratings.
 
 The features of the dataset are as follows:
 
